@@ -22,5 +22,17 @@ fun main(args : Array<String>){
     for (i in 5 downTo 1 step 2) print(i)
     println()
 
+    var language = arrayOf("Ruby", "Kotlin", "Python", "Java")
+    for (item in language.indices)
+        if(item%2 == 0)
+            println(language[item])
+
+    var text = "Kotlin"
+    for (letter in text) {
+        println(letter)
+    }
+
+
+
 
 }
